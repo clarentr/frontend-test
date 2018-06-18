@@ -1,5 +1,5 @@
 # Frontend Test
-So we can get an understanding of how you would approach a development task; we have created a very basic [API](https://faber-frontend-test-api.herokuapp.com/movie) that will return 3 movies. We have added a GET request to obtain a single movie by passing the id of a given movie into the URL [Example](https://faber-frontend-test-api.herokuapp.com/movie/1)
+So we can get an understanding of how you would approach a development task; we have created a very basic [API](https://faber-frontend-test-api.herokuapp.com/movie) that will return 3 movies. We have added a GET request to obtain a single movie by passing the id of a given movie into the URL [Example](https://faber-frontend-test-api.herokuapp.com/movie/1).
 
 We would like you to use the [Angular](http://angular.io/) framework, to consume this API and list out all 3 movies on a single page we will call a listing page. If you have not used the Angular framework, do not worry, this is a chance for you to demonstrate your ability to follow steps in a process. 
 
