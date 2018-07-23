@@ -1,0 +1,40 @@
+.movies {
+  position: relative;
+  .page-nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+  }
+  .container {
+    position: relative;
+    padding-top: 50px;
+    table {
+      th:nth-child(1) {
+        width: 25%;
+      }
+      th:nth-child(2) {
+        width: 60%;
+      }
+      th:nth-child(3) {
+        width: 15%;
+      }
+      tr {
+        td {
+          padding: 10px;
+          p {
+            text-align: right;
+          }
+          a{
+              text-decoration: underline;
+              color: purple;
+          }
+          a:hover{
+              color: grey;
+              cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

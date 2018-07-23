@@ -1,0 +1,20 @@
+.head{
+    background:black;
+    position: relative;
+    height: auto;
+    width: 100%;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        a {
+          display: block;
+          padding: 10px;
+          background-color: white;
+          margin: 5px;
+        }
+      }
+    }
+}
