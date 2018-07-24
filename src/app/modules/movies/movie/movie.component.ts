@@ -10,7 +10,7 @@ import { MovieDbService } from './../../service/movie-db.service';
 })
 export class MovieComponent implements OnInit {
 
-  movie: any;
+  movie = {};
   image: string;
   homepage: any;
   options = {};

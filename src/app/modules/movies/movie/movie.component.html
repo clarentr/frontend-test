@@ -1,5 +1,27 @@
-<img *ngIf="homepage" [src]="image">
-<p *ngIf="!homepage">No image</p>
-<pre>
+<h1>{{ movie.title }}
+<img style="float:right;" *ngIf="homepage" [src]="image">
+</h1>
+
+<p><a [href]="movie.homepage" target="_blank">{{ movie.homepage }}</a></p>
+
+<p>{{ movie.overview }}</p>
+
+<p>{{ movie.vote_average }}</p>
+
+<h4>Production company</h4>
+
+<ul>
+  <li *ngFor="let pc of movie.production_companies">{{ pc.name }}</li>
+</ul>
+
+<h4>Genre</h4>
+
+<ul>
+  <li *ngFor="let g of movie.genres">{{ g.name }}</li>
+</ul>
+
+<h4 style="cursor: pointer;" (click)="showRaw = !showRaw">Raw data</h4>
+
+<pre *ngIf="showRaw" title="click to show">
   {{ movie | json }}
 </pre>
