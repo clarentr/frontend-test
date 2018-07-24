@@ -1,0 +1,25 @@
+.head{
+    background:#ccc;
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        a {
+          display: block;
+          padding: 10px;
+          background-color: white;
+          margin: 5px;
+          border-radius: 10px;
+          width: 180px;
+          text-align: center;
+          box-shadow: 5px 10px #888888;
+        }
+      }
+    }
+}
