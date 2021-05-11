@@ -2,7 +2,7 @@ import { Component, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { MovieDbService } from './../service/movie-db.service';
-import { PageEvent } from '@angular/material';
+import { PageEvent } from '@angular/material/paginator';
 
 @Component({
   selector: 'app-movies',
